@@ -1,0 +1,20 @@
+.header{
+    box-shadow: 0 6px 12px #21212130;
+    border-radius: 0 0 12px 12px;
+}
+.login-Btn{font-size: 12px;}
+
+@media (max-width:1024px) {
+    .header{display: none;}
+}
+
+
+ /* moblie styles  */
+ @media (min-width:1024px) {
+    .mb-header{display: none;}
+ }
+ .mb-header{box-shadow: 0 6px 12px #21212130;}
+ .mobile-nav-item svg{
+    margin-bottom: -4px;
+ }
+ /* moblie styles  */

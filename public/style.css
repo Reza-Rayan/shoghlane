@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'iranyekan';
+    src: url('./fonts/iranyekanwebblackfanum.ttf');
+    src: url('./fonts/iranyekanwebboldfanum.ttf');
+    src: url('./fonts/iranyekanweblightfanum.ttf');
+}
+@font-face {
+    font-family: 'vazir';
+    src: url('./fonts/title-font/Vazir.eot');
+    src: url('./fonts/title-font/Vazir.ttf');
+    src: url('./fonts/title-font/Vazir.woff');
+}
+p,div,span,a,button,ul,li,ol{
+    font-family: 'iranyekan';
+    font-weight: 700;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'vazir';
+    font-weight: 900;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #a1a1a1; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8d8d8d; 
+    transition: all 1s;
+  }
+/* scroll bar */

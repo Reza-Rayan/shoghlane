@@ -1,0 +1,44 @@
+/* tailwind css  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* tailwind css  */
+
+html{
+    scroll-behavior: smooth !important;
+}
+/* total components  */
+*{transition:all .3s}
+.main-color{color: #1451A4 !important;}
+.main-color-hover:hover{color: #1451A4 !important;}
+.second-color{color: #A41451 !important;}
+.second-color-hover:hover{color: #A41451 !important;}
+
+.main-bg{
+    background: linear-gradient(45deg,#1451A4,#3B77C9) !important;
+    color: #fff;
+}
+.main-bg-hover:hover{
+    background: linear-gradient(45deg,#1451A4,#3B77C9) !important;
+    color: #fff;
+}
+.second-bg{
+    background: linear-gradient(45deg,#A41451,#D13979) !important;
+    color: #fff;
+}
+.second-bg-hover:hover{
+    background: linear-gradient(45deg,#A41451,#D13979) !important;
+    color: #fff;
+}
+strong{
+    color: #1451A4;
+}
+input:focus{outline: none !important;}
+
+
+/* total components  */
+/* change tailwind styles */
+.text-sm {
+    font-size: 12px !important;
+}
+/* change tailwind styles */

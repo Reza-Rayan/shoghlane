@@ -1,0 +1,53 @@
+.search-box {
+  box-shadow: 0 6px 12px #21212130;
+  border-radius: 0 0 20px 20px !important;
+}
+
+.search-container {
+  width: 70%;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+.blog-box:hover {
+  filter: brightness(1.2);
+}
+.blog-box{
+  background: url('../../../public/images/blog.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog-box p {
+  color: #e3e817;
+}
+.ads-home {
+  background: linear-gradient(180deg, #d9d9d9, #d9d9d900);
+  height: 190px;
+  align-items: center;
+}
+.faq-home{
+  background: linear-gradient(180deg,#4A4E57,#69696970);
+  color: #fff;
+}
+.faq-title{
+  border-bottom: 1px solid #fff !important;
+}
+.faq-title span{
+  border-bottom: 2px solid #A41451 !important;
+
+}
+
+
+
+@media (max-width: 650px) {
+  .ad-container {
+    display: block !important;
+  }
+  .blog-ads-row {
+    display: block;
+    width: 80%;
+  }
+  .componies-row{
+    width: 80%;
+  }
+}

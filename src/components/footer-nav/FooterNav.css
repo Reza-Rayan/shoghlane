@@ -1,0 +1,13 @@
+.footer-nav{
+    font-size: 13px;
+}
+
+.footer-nav::after{
+    width: 5px;
+    height: 5px;
+    border-radius: 40px !important;
+    background: #eee;
+    display: block !important;
+    position: absolute;
+    float: right;
+}

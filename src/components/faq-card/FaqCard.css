@@ -1,0 +1,10 @@
+.faq-card {
+    font-size: 15px;
+    font-weight: 400;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+.faq-card:hover{
+    box-shadow: 0 5px 10px #21212150;
+    transition: all 0.2s;
+}
